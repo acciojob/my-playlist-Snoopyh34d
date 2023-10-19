@@ -4,7 +4,7 @@
     padding: 0px;
 } */
 body{
-    background-color: rgb(204, 204 , 204);
+    background-color: rgb(204, 204, 204);
 }
 h1{
     text-align: center;
@@ -13,7 +13,7 @@ h2{
     text-align: center;
 }
 ul li{
-    list-style: none;
+    list-style-type: none;
 }
 ul li a{
     text-decoration-line: none;
@@ -36,14 +36,14 @@ div#content{
     border-radius: 20px;
 }
 
-div video{
+div.player_one{
     width: 90%;
     padding-left: 3%;
     background-color: rgb(255,255,255);
     
     border-radius: 20px;
 }
-div audio{
+div.player_two{
     background-color: rgb(255,255,255);
     width: 90%;
     padding-left: 3%;
