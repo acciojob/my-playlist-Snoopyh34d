@@ -3,9 +3,9 @@
     text-decoration: none;
     padding: 0px;
 } */
-body{
+/* body{
     background-color: rgb(204, 204, 204);
-}
+} */
 h1{
     text-align: center;
 }
@@ -36,14 +36,14 @@ div#content{
     border-radius: 20px;
 }
 
-div.player_one{
+div div.player_one{
     width: 90%;
     padding-left: 3%;
     background-color: rgb(255,255,255);
     
     border-radius: 20px;
 }
-div.player_two{
+div div.player_two{
     background-color: rgb(255,255,255);
     width: 90%;
     padding-left: 3%;
