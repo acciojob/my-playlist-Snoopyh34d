@@ -4,65 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body{
-            background-color: rgb(204, 204, 204);
-        }
-        h1 {
-            text-align: center;
-        }
-        h2{
-            text-align: center;
-        }
-        div li {
-            list-style-type: none;
-        }
-        div ul li a{
-            text-decoration-line: none;
-        }
-        div video {
-            background-color:  rgb(255, 255, 255);
-            padding: 0px;
-            border-radius: 5px;
-        }
-        div audio {
-            background-color:  rgb(255, 255, 255);
-            padding: 0px;
-            border-radius: 40px;
-        }
-        .songs{
-            background-color: white;
-            border-radius: 10px;
-        }
-        .vid{
-            /* margin: 30px; */
-            background-color: white;
-            border-radius: 10px;     
-            border-color: black;  
-            border: 5px; 
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>MY PLAYLIST</h1>
-    <div class="songs" style="align-items: center;">
-        <ul>
-            <li><a href="_blank">Song 1</a></li>
-            <li><a href="_blank">Song 2</a></li>
-            <li><a href="_blank">Song 3</a></li>
-            <li><a href="_blank">Song 4</a></li>
-            <li><a href="_blank">Song 5</a></li>
-
-        </ul>
-    </div>
+    <h1>My Playlist</h1>
+    <ul id="playlist">
+        <li><a href="#" target="_blank"> Songs 1</a></li>
+        <li><a href="#" target="_blank"> Songs 2</a></li>
+        <li><a href="#" target="_blank"> Songs 3</a></li>
+        <li><a href="#" target="_blank"> Songs 4</a></li>
+        <li><a href="#" target="_blank"> Songs 5</a></li>
+    </ul>
 
     <h2>Now Playing..</h2>
-    <div class="vid" style="align-content: center;">
-        <video class=".player_one" src="https://www.w3schools.com/tags/movie.mp4" controls></video>
-
-    <h2>MP3 songs</h2>
-  
-        <audio class=".player_two"  controls="https://www.pagalworld.com.se/files/download/id/64630"></audio>
+    <div id="content">
+        <div class="player_one">
+            <video controls>
+                <source src="https://www.w3schools.com/tags/movie.mp4">
+            </video>
+        </div>
+    
+        <h2>MP3 Songs</h2>
+        <div class="player_two">
+            <audio controls>
+                <source src="https://www.pagalworld.com.se/files/download/id/64630" type="audio/mpeg">
+            </audio>
+        </div>
     </div>
+
 </body>
 </html>
